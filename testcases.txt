@@ -1,0 +1,53 @@
+TestCases For Server1
+
+1. 
+Client asks: 2 + 2
+Server Replies: 4
+
+2. 
+Client asks: 1 / 3
+Server Replies: 0.333333333
+
+3.
+Client asks: 2 / 3
+Server Replies: 0.666666666
+
+# Case with multiple operands and operations
+4.
+Client asks: 13 * (11 + 2)
+Server Replies: 169
+
+# Modulo Operator
+5.
+Client asks: 7 % 5
+Server Replies: 2
+
+While doing these test cases
+if we run another terminal and launch the client and connect it to the server.
+The server will reply with the Server Busy Error Message to the client when the client asks a query.
+
+TestCases For Server2
+
+1. 
+Client asks: 2 + 2
+Server Replies: 4
+
+2. 
+Client asks: 1 / 3
+Server Replies: 0.333333333
+
+3.
+Client asks: 2 / 3
+Server Replies: 0.666666666
+
+# Case with multiple operands and operations
+4.
+Client asks: 13 * (11 + 2)
+Server Replies: 169
+
+# Modulo Operator
+5.
+Client asks: 7 % 5
+Server Replies: 2
+
+When multiple clients connect and disconnect, it doesn't affect the outputs to other clients that are still connected!
