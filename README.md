@@ -124,7 +124,18 @@ Repeat the steps and deploy another client on another terminal and try to ask so
 Server replied: Server is busy. Please wait.
 ```
 
+**An important note! I have introduced a disconnect command from the client which tells the server that the client has to disconnect**
 
+So for one of the Tests that have been told in the Assignment
+We have to do it like the following
+
+```bash
+Connect Client1 with Server1, and ask it queries
+Send "disconnect" command to the Server1
+Like the following
+Please enter the message to the server: disconnect
+Then we can connect the second client to the Server1 and Check if the server replies to the second client after the first one disconnects
+```
 
 
 ***Part 2: Multi-Process / Multi-Threaded Server (12 Marks)**
